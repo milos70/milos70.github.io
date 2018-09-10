@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(240, 240, 220) !important;
+}
+
+
+.myTable{
+    width: 90%;
+    margin-top: 30px;
+    
+}
+
+.firstrow, .secondrow{
+    border-bottom: 5px solid #c2bbbb;
+    
+}
+
+.firstcol, .secondcol{
+    border-right: 5px solid #c2bbbb;
+    
+}
+
+td{
+    height: 25vh;
+    width: 25vw;
+    text-align: center;
+    font-size: 9vw;
+    position: relative;
+    
+}
+
+.hoverFree{
+    background-color: #e1ecf3
+}
+
+ .hoverFull{
+    background-color: #f8cbb7;
+} 
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    height: 20px;
+}
+
+.navbar-fixed-top {
+    min-height: 80px;
+}
+
+.navbar-nav > li > a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 80px;
+}
+
+@media (max-width: 500px) {
+    .navbar-nav > li > a {
+    line-height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;}
+}

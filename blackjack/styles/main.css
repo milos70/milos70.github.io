@@ -1,0 +1,131 @@
+body{
+    background-image: url(pexels-photo-988873.jpeg);
+}
+
+.myTable{
+    width: 80%;
+    height: 80%;
+    margin-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1;
+    table-layout: fixed;
+    
+}
+
+.myTable input{
+    display: none;
+}
+
+.edit span{
+    display:none;
+}
+
+.edit input{
+    display: initial;
+}
+
+input {
+    background-color: transparent;
+    border: 0px solid;
+    size: inherit;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.myTable th{
+    background: #343a40;
+    color: white;
+    overflow: hidden;
+}
+
+.myTable td{
+    font-weight: bold;
+    background: white;
+    overflow: hidden;
+}
+
+.myTable, th, td {
+    border: 1px solid black;
+    text-align: center;
+    
+}
+
+.myButtons {
+    margin-top: 50px;
+    float: left;
+}
+
+.btn-space{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+
+
+.textArea {
+    
+    margin-top: 50px;
+    border-style: solid;
+    border-color: #3d4449; 
+    width: 90%;
+    height: 90%;
+    border-radius: 100px;
+    text-align: center;
+    background: #a5afac;
+    word-wrap: break-word;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+
+#playerArea{
+    height: 50%;
+    word-break: break-word;
+}
+
+#result {
+    margin-top: 60px;
+    text-emphasis: em;
+}
+
+#dealerArea{
+    height: 50%;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    height: 20px;
+}
+
+.navbar-fixed-top {
+    min-height: 80px;
+}
+
+.navbar-nav > li > a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    line-height: 80px;
+}
+
+@media screen and (max-width: 500px){
+    .textArea {
+        overflow: auto;   
+    }
+    .navbar-nav > li > a {
+        line-height: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .myTable{
+        width: 150px;
+    }
+}
+
+
